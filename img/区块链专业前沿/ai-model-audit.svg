@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 336" width="680" height="648" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="336" rx="5" fill="#fff"/>
+    
+      <rect x="8" y="9" width="98" height="40" rx="7" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="57" y="34" text-anchor="middle" font-size="12" font-weight="600" fill="#1e40af">数据方 A</text>
+    
+      <rect x="121" y="9" width="98" height="40" rx="7" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="170" y="34" text-anchor="middle" font-size="12" font-weight="600" fill="#1e40af">数据方 B</text>
+    
+      <rect x="234" y="9" width="98" height="40" rx="7" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="283" y="34" text-anchor="middle" font-size="12" font-weight="600" fill="#1e40af">数据方 C</text>
+    
+    <path d="M57 49 V65 H170 V84 M170 49 V84 M283 49 V65 H170" stroke="currentColor" stroke-width="1.5" fill="none" opacity=".6"></path>
+    
+      <rect x="42" y="84" width="256" height="52" rx="8" fill="#fef3c7" stroke="#64748b"></rect>
+      <text x="170" y="105" text-anchor="middle" font-size="13" font-weight="600" fill="#92400e">区块链记录数据授权</text>
+      <text x="170" y="123" text-anchor="middle" font-size="11" fill="#92400e">来源、摘要、使用权限</text>
+      <path d="M170 136 V159" stroke="currentColor" stroke-width="1.5"></path>
+    
+      <rect x="42" y="159" width="256" height="52" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="170" y="180" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">AI模型训练</text>
+      <text x="170" y="198" text-anchor="middle" font-size="11" fill="#1e40af">使用经过授权的数据</text>
+      <path d="M170 211 V234" stroke="currentColor" stroke-width="1.5"></path>
+    
+      <rect x="42" y="234" width="256" height="52" rx="8" fill="#dcfce7" stroke="#64748b"></rect>
+      <text x="170" y="255" text-anchor="middle" font-size="13" font-weight="600" fill="#166534">模型审计与收益分配</text>
+      <text x="170" y="273" text-anchor="middle" font-size="11" fill="#166534">记录版本、贡献与分配规则</text>
+      
+    
+    <text x="170" y="311" text-anchor="middle" font-size="11" fill="currentColor">区块链管理可信协作，AI负责模型计算</text>
+  </svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 354 169" width="684" height="314" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="354" height="169" rx="5" fill="#fff"/>
+    <g stroke="currentColor" stroke-width="3" fill="none" opacity=".65">
+      <path d="M36 81 H150 L208 37 H308"></path>
+      <path d="M150 81 L208 126 H308"></path>
+    </g>
+    
+      <circle cx="36" cy="81" r="12" fill="#94a3b8" stroke="#64748b"></circle>
+    
+      <circle cx="94" cy="81" r="12" fill="#94a3b8" stroke="#64748b"></circle>
+    
+      <circle cx="150" cy="81" r="12" fill="#94a3b8" stroke="#64748b"></circle>
+    
+      <circle cx="208" cy="37" r="12" fill="#bfdbfe" stroke="#64748b"></circle>
+    
+      <circle cx="264" cy="37" r="12" fill="#bfdbfe" stroke="#64748b"></circle>
+    
+      <circle cx="308" cy="37" r="12" fill="#bfdbfe" stroke="#64748b"></circle>
+    
+      <circle cx="208" cy="126" r="12" fill="#bbf7d0" stroke="#64748b"></circle>
+    
+      <circle cx="264" cy="126" r="12" fill="#bbf7d0" stroke="#64748b"></circle>
+    
+      <circle cx="308" cy="126" r="12" fill="#bbf7d0" stroke="#64748b"></circle>
+    
+    <text x="245" y="12" text-anchor="middle" font-size="12" fill="currentColor">新规则链</text>
+    <text x="245" y="155" text-anchor="middle" font-size="12" fill="currentColor">旧规则链</text>
+  </svg>

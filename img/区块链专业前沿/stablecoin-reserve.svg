@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 192" width="680" height="360" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="192" rx="5" fill="#fff"/>
+    <rect x="5" y="47" width="94" height="77" rx="9" fill="#dbeafe" stroke="#64748b"></rect>
+    <text x="52" y="68" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">用户</text>
+    <text x="52" y="88" text-anchor="middle" font-size="12" fill="#1e40af">支付美元</text>
+    <text x="52" y="110" text-anchor="middle" font-size="17" font-weight="600" fill="#1e40af">$100</text>
+    <rect x="119" y="47" width="105" height="77" rx="9" fill="#fef3c7" stroke="#b45309"></rect>
+    <text x="171" y="68" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">发行机构</text>
+    <text x="171" y="87" text-anchor="middle" font-size="11" fill="#92400e">银行储备</text>
+    <text x="171" y="110" text-anchor="middle" font-size="17" font-weight="600" fill="#92400e">$100</text>
+    <rect x="244" y="47" width="91" height="77" rx="9" fill="#dcfce7" stroke="#15803d"></rect>
+    <text x="289" y="67" text-anchor="middle" font-size="12" font-weight="600" fill="#166534">链上代币</text>
+    <text x="289" y="88" text-anchor="middle" font-size="11" fill="#166534">铸造</text>
+    <text x="289" y="109" text-anchor="middle" font-size="15" font-weight="600" fill="#166534">100 ABC</text>
+    <path d="M99 85 H119 M224 85 H244" stroke="currentColor" stroke-width="1.5"></path>
+    <path d="M113 80 L119 85 L113 90 M238 80 L244 85 L238 90" fill="none" stroke="currentColor" stroke-width="1.5"></path>
+    <text x="170" y="24" text-anchor="middle" font-size="13" fill="currentColor">存入法币 → 发行稳定币</text>
+    <text x="170" y="155" text-anchor="middle" font-size="12" fill="currentColor">每个ABC背后有1美元储备支持</text>
+  </svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 280" width="680" height="536" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="280" rx="5" fill="#fff"/>
+    <rect x="85" y="5" width="170" height="36" rx="5" fill="#64748b" fill-opacity=".15" stroke="#64748b"></rect>
+    <text x="170" y="20" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">以太坊 Ethereum</text>
+    <text x="170" y="33" font-size="10" text-anchor="middle" fill="currentColor">底层区块链平台</text>
+    <path d="M170 41 V56" stroke="currentColor"></path>
+    <rect x="85" y="56" width="170" height="32" rx="5" fill="#64748b" fill-opacity=".12" stroke="#64748b"></rect>
+    <text x="170" y="76" font-size="12" text-anchor="middle" fill="currentColor">EVM 执行智能合约</text>
+    <path d="M170 88 V102 H79 V117 M170 102 H261 V117" stroke="currentColor" fill="none"></path>
+    <rect x="7" y="117" width="144" height="38" rx="5" fill="#3b82f6" fill-opacity=".12" stroke="#2563eb"></rect>
+    <text x="79" y="133" font-size="12" font-weight="600" text-anchor="middle" fill="currentColor">DApp</text>
+    <text x="79" y="147" font-size="10" text-anchor="middle" fill="currentColor">去中心化应用</text>
+    <rect x="189" y="117" width="144" height="38" rx="5" fill="#d97706" fill-opacity=".12" stroke="#d97706"></rect>
+    <text x="261" y="133" font-size="12" font-weight="600" text-anchor="middle" fill="currentColor">ERC</text>
+    <text x="261" y="147" font-size="10" text-anchor="middle" fill="currentColor">应用层技术标准</text>
+    <path d="M79 155 V173 H41 V190 M79 173 H121 V190 M261 155 V173 H219 V190 M261 173 H299 V190" stroke="currentColor" fill="none"></path>
+    
+      <rect x="4" y="190" width="74" height="42" rx="4" fill="#2563eb" fill-opacity=".1" stroke="#2563eb"></rect>
+      <text x="41" y="206" font-size="11" font-weight="600" text-anchor="middle" fill="currentColor">DeFi</text>
+      <text x="41" y="222" font-size="10" text-anchor="middle" fill="currentColor">金融应用</text>
+    
+      <rect x="84" y="190" width="74" height="42" rx="4" fill="#2563eb" fill-opacity=".1" stroke="#2563eb"></rect>
+      <text x="121" y="206" font-size="11" font-weight="600" text-anchor="middle" fill="currentColor">GameFi</text>
+      <text x="121" y="222" font-size="10" text-anchor="middle" fill="currentColor">游戏金融</text>
+    
+      <rect x="182" y="190" width="74" height="42" rx="4" fill="#d97706" fill-opacity=".1" stroke="#d97706"></rect>
+      <text x="219" y="206" font-size="11" font-weight="600" text-anchor="middle" fill="currentColor">ERC-20</text>
+      <text x="219" y="222" font-size="10" text-anchor="middle" fill="currentColor">同质化代币</text>
+    
+      <rect x="262" y="190" width="74" height="42" rx="4" fill="#d97706" fill-opacity=".1" stroke="#d97706"></rect>
+      <text x="299" y="206" font-size="11" font-weight="600" text-anchor="middle" fill="currentColor">ERC-721</text>
+      <text x="299" y="222" font-size="10" text-anchor="middle" fill="currentColor">NFT</text>
+    
+    <path d="M121 232 V249 H299 V232" stroke="#64748b" stroke-dasharray="4 3" fill="none"></path>
+    <text x="210" y="263" font-size="10" text-anchor="middle" fill="currentColor">GameFi可以使用NFT表示游戏资产</text>
+  </svg>

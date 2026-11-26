@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 324" width="680" height="624" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="324" rx="5" fill="#fff"/>
+    
+      <rect x="10" y="8" width="260" height="50" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="140" y="28" font-size="13" font-weight="600" text-anchor="middle" fill="#1e40af">物联网 IoT</text>
+      <text x="140" y="46" font-size="11" text-anchor="middle" fill="#1e40af">传感器采集温度、湿度、光照</text>
+      <text x="304" y="38" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">采集</text>
+      <path d="M140 58 V83" stroke="currentColor" stroke-width="1.5"></path>
+    
+      <rect x="10" y="83" width="260" height="50" rx="8" fill="#fef3c7" stroke="#64748b"></rect>
+      <text x="140" y="103" font-size="13" font-weight="600" text-anchor="middle" fill="#92400e">区块链 Blockchain</text>
+      <text x="140" y="121" font-size="11" text-anchor="middle" fill="#92400e">记录数据摘要、来源和时间</text>
+      <text x="304" y="113" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">可信</text>
+      <path d="M140 133 V158" stroke="currentColor" stroke-width="1.5"></path>
+    
+      <rect x="10" y="158" width="260" height="50" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="140" y="178" font-size="13" font-weight="600" text-anchor="middle" fill="#1e40af">大数据 Big Data</text>
+      <text x="140" y="196" font-size="11" text-anchor="middle" fill="#1e40af">处理和分析大量农业数据</text>
+      <text x="304" y="188" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">分析</text>
+      <path d="M140 208 V233" stroke="currentColor" stroke-width="1.5"></path>
+    
+      <rect x="10" y="233" width="260" height="50" rx="8" fill="#dcfce7" stroke="#64748b"></rect>
+      <text x="140" y="253" font-size="13" font-weight="600" text-anchor="middle" fill="#166534">人工智能 AI</text>
+      <text x="140" y="271" font-size="11" text-anchor="middle" fill="#166534">预测病虫害、优化灌溉决策</text>
+      <text x="304" y="263" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">决策</text>
+      
+    
+  </svg>

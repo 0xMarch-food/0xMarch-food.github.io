@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 232" width="680" height="440" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="232" rx="5" fill="#fff"/>
+    <text x="51" y="15" font-size="12" font-weight="600" text-anchor="middle" fill="currentColor">交易输入</text>
+    <text x="286" y="15" font-size="12" font-weight="600" text-anchor="middle" fill="currentColor">交易输出</text>
+    
+      <rect x="3" y="34" width="96" height="56" rx="5" fill="#64748b" fill-opacity=".12" stroke="#64748b"></rect>
+      <text x="51" y="55" font-size="12" text-anchor="middle" fill="currentColor">原UTXO</text>
+      <text x="51" y="73" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">0.9 BTC</text>
+    
+      <rect x="3" y="116" width="96" height="56" rx="5" fill="#64748b" fill-opacity=".12" stroke="#64748b"></rect>
+      <text x="51" y="137" font-size="12" text-anchor="middle" fill="currentColor">原UTXO</text>
+      <text x="51" y="155" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">0.6 BTC</text>
+    
+    <path d="M99 62 H111 V105 H128 M99 144 H111 V105" stroke="#64748b" stroke-width="1.5" fill="none"></path>
+    <rect x="128" y="75" width="82" height="60" rx="6" fill="#3b82f6" fill-opacity=".1" stroke="#2563eb"></rect>
+    <text x="169" y="98" font-size="12" text-anchor="middle" fill="currentColor">Transaction</text>
+    <text x="169" y="116" font-size="12" text-anchor="middle" fill="currentColor">1.5 BTC</text>
+    <path d="M210 105 H222 V55 H238 M222 105 V116 H238 M222 116 V183 H238" stroke="#64748b" stroke-width="1.5" fill="none"></path>
+    
+      <rect x="238" y="28" width="99" height="54" rx="5" fill="#16a34a" fill-opacity=".1" stroke="#16a34a"></rect>
+      <text x="287.5" y="48" font-size="11" text-anchor="middle" fill="currentColor">商家新UTXO</text>
+      <text x="287.5" y="66" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">1.2 BTC</text>
+    
+      <rect x="238" y="89" width="99" height="54" rx="5" fill="#16a34a" fill-opacity=".1" stroke="#16a34a"></rect>
+      <text x="287.5" y="109" font-size="11" text-anchor="middle" fill="currentColor">找零新UTXO</text>
+      <text x="287.5" y="127" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">0.29 BTC</text>
+    
+      <rect x="238" y="156" width="99" height="54" rx="5" fill="#d97706" fill-opacity=".1" stroke="#d97706"></rect>
+      <text x="287.5" y="176" font-size="11" text-anchor="middle" fill="currentColor">交易手续费</text>
+      <text x="287.5" y="194" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">0.01 BTC</text>
+    
+    <text x="51" y="192" text-anchor="middle" font-size="11" fill="#dc2626">两个旧UTXO被消耗</text>
+  </svg>

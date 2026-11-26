@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 202" width="680" height="380" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="202" rx="5" fill="#fff"/>
+    <path d="M170 25 L60 158 H280 Z" fill="#dbeafe" fill-opacity=".3" stroke="currentColor" stroke-width="1.8"></path>
+    <circle cx="170" cy="25" r="7" fill="#64748b"></circle>
+    <circle cx="60" cy="158" r="7" fill="#64748b"></circle>
+    <circle cx="280" cy="158" r="7" fill="#64748b"></circle>
+    <text x="170" y="13" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">安全性</text>
+    <text x="60" y="182" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">去中心化</text>
+    <text x="280" y="182" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">可扩展性</text>
+    <text x="170" y="117" font-size="13" text-anchor="middle" fill="currentColor">三者权衡</text>
+  </svg>

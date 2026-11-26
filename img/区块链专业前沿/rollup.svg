@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 252" width="680" height="480" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="252" rx="5" fill="#fff"/>
+    <rect x="8" y="8" width="324" height="103" rx="9" fill="#dbeafe" stroke="#64748b"></rect>
+    <text x="170" y="29" text-anchor="middle" font-size="14" font-weight="600" fill="#1e40af">Layer 2：批量执行交易</text>
+    
+      <rect x="28" y="43" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="60" y="43" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="92" y="43" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="124" y="43" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="156" y="43" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="188" y="43" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="220" y="43" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="252" y="43" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="284" y="43" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="28" y="70" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="60" y="70" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="92" y="70" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="124" y="70" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="156" y="70" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="188" y="70" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="220" y="70" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="252" y="70" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+      <rect x="284" y="70" width="25" height="19" rx="3" fill="#93c5fd" stroke="#64748b"></rect>
+    
+    <path d="M170 111 V152" stroke="currentColor" stroke-width="1.8"></path>
+    <text x="181" y="135" font-size="11" fill="currentColor">压缩、提交</text>
+    <rect x="8" y="152" width="324" height="77" rx="9" fill="#dcfce7" stroke="#15803d"></rect>
+    <text x="170" y="174" text-anchor="middle" font-size="14" font-weight="600" fill="#166534">Layer 1：以太坊主网</text>
+    <rect x="80" y="184" width="180" height="31" rx="5" fill="#f0fdf4" stroke="#15803d"></rect>
+    <text x="170" y="204" text-anchor="middle" font-size="11" fill="#166534">数据可用性、验证、结算</text>
+  </svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 362 352" width="700" height="680" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="362" height="352" rx="5" fill="#fff"/>
+    <rect x="5" y="5" width="340" height="232" rx="11" fill="#64748b" fill-opacity=".05" stroke="currentColor" stroke-opacity=".5" stroke-dasharray="5 4"></rect>
+    <text x="175" y="26" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor">Polkadot 多链生态</text>
+    <path d="M65 90 L175 121 M285 90 L175 121 M175 172 V187" stroke="currentColor" stroke-width="1.7" opacity=".65"></path>
+    
+      <rect x="10" y="47" width="110" height="43" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="65" y="74" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">平行链 A</text>
+    
+      <rect x="230" y="47" width="110" height="43" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="285" y="74" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">平行链 B</text>
+    
+    <rect x="105" y="121" width="140" height="51" rx="8" fill="#fce7f3" stroke="#be185d"></rect>
+    <text x="175" y="141" text-anchor="middle" font-size="13" font-weight="600" fill="#9d174d">Relay Chain 中继链</text>
+    <text x="175" y="157" text-anchor="middle" font-size="11" fill="#9d174d">共享安全</text>
+    <rect x="105" y="187" width="140" height="39" rx="7" fill="#fef3c7" stroke="#b45309"></rect>
+    <text x="175" y="203" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">Bridge Hub</text>
+    <text x="175" y="217" text-anchor="middle" font-size="10" fill="#92400e">专用桥接平行链</text>
+    <path d="M175 226 V283" stroke="#15803d" stroke-width="2"></path>
+    <path d="M170 233 L175 226 L180 233 M170 276 L175 283 L180 276" stroke="#15803d" stroke-width="1.7" fill="none"></path>
+    <text x="185" y="254" font-size="12" font-weight="600" fill="currentColor">Snowbridge</text>
+    <text x="185" y="269" font-size="11" fill="currentColor">跨链桥</text>
+    <rect x="90" y="283" width="170" height="49" rx="8" fill="#dcfce7" stroke="#15803d"></rect>
+    <text x="175" y="303" text-anchor="middle" font-size="13" font-weight="600" fill="#166534">Ethereum 以太坊</text>
+    <text x="175" y="319" text-anchor="middle" font-size="11" fill="#166534">外部独立公链</text>
+  </svg>

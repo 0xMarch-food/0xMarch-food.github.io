@@ -1,0 +1,228 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>智能体 | March</title><meta name="author" content="March"><meta name="copyright" content="March"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Agent 可以看成能交互与任务执行循环的外壳，壳里面挂载大模型、记忆、工具。这个壳只负责流程调度，大模型负责思考决策。 比如ClaudeCode+deepseekV4pro就是说ClaudeCode这个外壳接入ds大模型。  比如Nuwax就可以搭建自己的智能体。https:&#x2F;&#x2F;agent.nuwax.com用户使用手册https:&#x2F;&#x2F;nuwax.com&#x2F;user-manual.html  NU">
+<meta property="og:type" content="article">
+<meta property="og:title" content="智能体">
+<meta property="og:url" content="http://example.com/2026/07/28/AI/%E6%99%BA%E8%83%BD%E4%BD%93/index.html">
+<meta property="og:site_name" content="March">
+<meta property="og:description" content="Agent 可以看成能交互与任务执行循环的外壳，壳里面挂载大模型、记忆、工具。这个壳只负责流程调度，大模型负责思考决策。 比如ClaudeCode+deepseekV4pro就是说ClaudeCode这个外壳接入ds大模型。  比如Nuwax就可以搭建自己的智能体。https:&#x2F;&#x2F;agent.nuwax.com用户使用手册https:&#x2F;&#x2F;nuwax.com&#x2F;user-manual.html  NU">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/xixi.jpg">
+<meta property="article:published_time" content="2026-07-28T07:39:22.915Z">
+<meta property="article:modified_time" content="2026-11-26T09:03:45.663Z">
+<meta property="article:author" content="March">
+<meta property="article:tag" content="AI Agent">
+<meta property="article:tag" content="大语言模型">
+<meta property="article:tag" content="工具调用">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/xixi.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "智能体",
+  "url": "http://example.com/2026/07/28/AI/%E6%99%BA%E8%83%BD%E4%BD%93/",
+  "image": "http://example.com/img/xixi.jpg",
+  "datePublished": "2026-07-28T07:39:22.915Z",
+  "dateModified": "2026-11-26T09:03:45.663Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "March",
+      "url": "https://github.com/0xMarch-food"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="http://example.com/2026/07/28/AI/%E6%99%BA%E8%83%BD%E4%BD%93/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '智能体',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/article-image-resize.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg" style="background-image: url(/img/background.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">45</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/xixi.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">March</span></a><a class="nav-page-title" href="/"><span class="site-name">智能体</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">智能体</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-07-28T07:39:22.915Z" title="发表于 2026-07-28 15:39:22">2026-07-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-11-26T09:03:45.663Z" title="更新于 2026-11-26 17:03:45">2026-11-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/AI/">AI</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">229</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>Agent 可以看成能交互与任务执行循环的<strong>外壳</strong>，壳里面挂载大模型、记忆、工具。这个壳只负责流程调度，大模型负责思考决策。</p>
+<p>比如ClaudeCode+deepseekV4pro就是说ClaudeCode这个外壳接入ds大模型。</p>
+<blockquote>
+<p>比如Nuwax就可以搭建自己的智能体。<br><a target="_blank" rel="noopener" href="https://agent.nuwax.com/">https://agent.nuwax.com</a><br>用户使用手册<br><a target="_blank" rel="noopener" href="https://nuwax.com/user-manual.html">https://nuwax.com/user-manual.html</a></p>
+</blockquote>
+<p>NUWAX平台现在把智能体大致分成：</p>
+<ul>
+<li>问答型 Agent</li>
+<li>通用型 Agent</li>
+<li>AgentFlow</li>
+<li>AgentGroup</li>
+</ul>
+<p>在Nuwax里面，Agent 是员工，AgentGroup 是一个团队，AgentFlow 是团队的SOP流程图。</p>
+<p><strong>System Prompt 系统提示词</strong>：定义Agent角色、能用什么工具，属于底层预设，用户看不见，最先给到模型。<br><strong>User Prompt 用户提示词</strong>：就是用户发出去的问题、指令。</p>
+<p><strong>工作流</strong>：一套预先规定好任务先做什么、再做什么、分支怎么走、循环多少次的执行流程。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a target="_blank" rel="noopener" href="https://github.com/0xMarch-food">March</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2026/07/28/AI/%E6%99%BA%E8%83%BD%E4%BD%93/">http://example.com/2026/07/28/AI/%E6%99%BA%E8%83%BD%E4%BD%93/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://example.com" target="_blank">March</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/AI-Agent/">AI Agent</a><a class="post-meta__tags" href="/tags/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/">大语言模型</a><a class="post-meta__tags" href="/tags/%E5%B7%A5%E5%85%B7%E8%B0%83%E7%94%A8/">工具调用</a></div><div class="post-share"><div class="social-share" data-image="/img/xixi.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechatpay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechatpay.jpg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li></ul></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2026/10/20/AI/%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%B5%81%E9%87%8F%E5%A4%9A%E5%88%86%E7%B1%BB%E5%85%A5%E4%BE%B5%E6%A3%80%E6%B5%8B/" title="机器人流量多分类入侵检测"><img class="cover" src="/img/post24.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">机器人流量多分类入侵检测</div></div><div class="info-2"><div class="info-item-1">1. 目标利用机器人网络流量识别不同攻击类型，验证DPHF能否通过联合建模“数据包内容”和“通信行为”提高分类效果，并分析各模块的作用及计算开销。 2. 对比方法 NetMamba：利用Mamba结构学习流量字节序列特征。 ET-BERT：通过预训练学习上下文数据报表示，再针对目标任务微调。 TFE-GNN：利用图神经网络提取报头与载荷特征，并进行融合和时序建模。  3. 数据集   数据集 采集场景 分类    NAVBOT25 ROS1移动机器人自主导航场景 正常与不同攻击类型的8分类   ROSIDS23 包含机械臂、控制器和ROS Master的实验环境 正常与不同攻击类型的5分类   4. 实验流程 读取原始PCAP：获得数据包及其时间、方向等信息。  提取TCP流样本：按照双向通信关系重建网络流，并依据标注确定类别。  划分数据池：按同一捕获场景中的5分钟时间块分组，兼顾类别比例划分训练池、验证池和测试池，减少相近样本被随机打散的问题。  公共预处理：清洗直接标识字段，每流最多保留50个包，每包保留80字节报头和256字节载荷，统一存储为HDF5格式。  分层抽样：从...</div></div></div></a><a class="pagination-related" href="/2026/06/20/%E5%8C%BA%E5%9D%97%E9%93%BE/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86/" title="区块链原理"><img class="cover" src="/img/xixi.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">区块链原理</div></div><div class="info-2"><div class="info-item-1">区块链技术概述区块链，这个概念最早出现于2008年10月31日（北美东部时间）署名“中本聪”的作者发表的比特币系统技术白皮书《比特币：一种点对点的电子现金系统》（Bitcoin: A Peer-to-Peer Electronic Cash System），在该白皮书中首次提出区块链是一种用于记录交易账本的数据结构。 2019年10月25日，习近平在中央政治局第十八次集体学习时强调把区块链作为核心技术自主创新重要突破口，加快推动区块链技术和产业创新发展。 区块链技术背景（1）随着人类处理大数据的数量、质量和速度的能力不断增强，推动人类经济形态由工业经济向数字经济形态转化，数字技术被广泛使用并由此带来了整个经济环境和经济活动的根本变化。（2）企业、消费者和政府之间通过网络进行的交易迅速增长，必须极大地降低社会交易成本，提高资源优化配置效率，才能提高产品、企业、产业附加值，推动社会生产力快速发展。（3）人类社会交易是个体或组织的价值创造、价值交换与价值记录的过程。在这个过程中，所有环节的“可信”是有效社会交易活动的前提与基础，信任是确保人类社会交易甚至生产关系得以维系发展的核心要素。...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">March</div><div class="author-info-description">Major in BlackChain | learner</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">45</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/0xMarch-food"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客，这里是对自己一些学习内容的记录，欢迎探讨指正！</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/05/28/%E5%85%B6%E4%BB%96/%E5%BC%80%E5%A7%8B%E4%B8%80%E4%B8%AA%E5%B0%8F%E9%A1%B9%E7%9B%AE-%E4%BC%B4%E5%AD%A6/" title="开始一个小项目-伴学">开始一个小项目-伴学</a><time datetime="2026-11-26T09:09:00.775Z" title="更新于 2026-11-26 17:09:00">2026-11-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/03/10/%E5%85%B6%E4%BB%96/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" title="算法与数据结构">算法与数据结构</a><time datetime="2026-11-26T09:03:45.676Z" title="更新于 2026-11-26 17:03:45">2026-11-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/20/%E5%85%B6%E4%BB%96/Rust%E5%9F%BA%E7%A1%80/" title="Rust">Rust</a><time datetime="2026-11-26T09:03:45.669Z" title="更新于 2026-11-26 17:03:45">2026-11-26</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(/img/xixi.jpg);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By March</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.4.3</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"><script>(() => {
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = `%%{init:{ 'theme':'${theme}'}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (true) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script></div><script src="/js/article-image-resize.js" defer></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

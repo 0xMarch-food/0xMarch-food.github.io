@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 257" width="680" height="490" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="257" rx="5" fill="#fff"/>
+    <rect x="5" y="8" width="151" height="225" rx="10" fill="#f59e0b" fill-opacity=".08" stroke="#d97706" stroke-dasharray="5 3"></rect>
+    <rect x="184" y="8" width="151" height="225" rx="10" fill="#3b82f6" fill-opacity=".08" stroke="#64748b" stroke-dasharray="5 3"></rect>
+    <text x="80" y="30" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">比特币网络</text>
+    <text x="260" y="30" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">以太坊网络</text>
+    <rect x="22" y="43" width="117" height="65" rx="8" fill="#ffedd5" stroke="#d97706"></rect>
+    <text x="80" y="63" text-anchor="middle" font-size="12" fill="#92400e">你的钱包</text>
+    <text x="80" y="91" text-anchor="middle" font-size="20" font-weight="600" fill="#92400e">0 BTC</text>
+    <rect x="22" y="153" width="117" height="63" rx="8" fill="#fef3c7" stroke="#d97706"></rect>
+    <text x="80" y="173" text-anchor="middle" font-size="12" fill="#92400e">资产托管地址</text>
+    <text x="80" y="200" text-anchor="middle" font-size="19" font-weight="600" fill="#92400e">1 BTC</text>
+    
+      <path d="M80 108 V153" stroke="#d97706" stroke-width="2"></path>
+      <path d="M75 146 L80 153 L85 146" fill="none" stroke="#d97706" stroke-width="2"></path>
+      <text x="91" y="135" font-size="11" fill="currentColor">锁定</text>
+    
+    <rect x="201" y="153" width="117" height="63" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+    <text x="259" y="173" text-anchor="middle" font-size="12" fill="#1e40af">代币合约</text>
+    <text x="259" y="200" text-anchor="middle" font-size="16" font-weight="600" fill="#1e40af">铸造 1 WBTC</text>
+    <rect x="201" y="43" width="117" height="65" rx="8" fill="#dcfce7" stroke="#15803d"></rect>
+    <text x="259" y="63" text-anchor="middle" font-size="12" fill="#166534">你的钱包</text>
+    <text x="259" y="91" text-anchor="middle" font-size="19" font-weight="600" fill="#166534">1 WBTC</text>
+    
+      <path d="M139 184 H201" stroke="#15803d" stroke-width="2" stroke-dasharray="4 3"></path>
+      <path d="M195 179 L201 184 L195 189" stroke="#15803d" stroke-width="2" fill="none"></path>
+      <text x="170" y="174" text-anchor="middle" font-size="10" fill="currentColor">确认</text>
+      <path d="M259 153 V108" stroke="#15803d" stroke-width="2"></path>
+      <path d="M254 115 L259 108 L264 115" fill="none" stroke="#15803d" stroke-width="2"></path>
+    
+  </svg>

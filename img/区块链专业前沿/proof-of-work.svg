@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 351" width="680" height="678" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="351" rx="5" fill="#fff"/>
+    
+      <rect x="68" y="8" width="204" height="43" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="170" y="34" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">① 收集并验证交易</text>
+    
+      <rect x="68" y="70" width="204" height="43" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="170" y="96" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">② 构造候选区块</text>
+    
+      <rect x="68" y="132" width="204" height="43" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+      <text x="170" y="158" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">③ 改变 Nonce，计算哈希</text>
+    
+    <g stroke="currentColor" stroke-width="1.5" fill="none">
+      <path d="M170 51 V70 M170 113 V132 M170 175 V196"></path>
+      <path d="M165 65 L170 71 L175 65 M165 127 L170 133 L175 127"></path>
+    </g>
+    <path d="M170 196 L253 231 L170 266 L87 231 Z" fill="#fef3c7" stroke="#b45309"></path>
+    <text x="170" y="227" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">哈希值</text>
+    <text x="170" y="243" text-anchor="middle" font-size="12" fill="#92400e">小于目标值？</text>
+    <path d="M253 231 H320 V153 H273" stroke="#b45309" stroke-width="1.5" fill="none"></path>
+    <text x="306" y="222" text-anchor="middle" font-size="12" fill="#92400e">否</text>
+    <path d="M170 266 V288" stroke="#15803d" stroke-width="1.7"></path>
+    <text x="183" y="283" font-size="12" fill="#15803d">是</text>
+    <rect x="68" y="288" width="204" height="43" rx="8" fill="#dcfce7" stroke="#15803d"></rect>
+    <text x="170" y="314" text-anchor="middle" font-size="13" font-weight="600" fill="#166534">广播区块，接受全网验证</text>
+  </svg>

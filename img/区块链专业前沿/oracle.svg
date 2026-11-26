@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 352 242" width="680" height="460" color="#243244" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"><rect x="-6" y="-6" width="352" height="242" rx="5" fill="#fff"/>
+    <rect x="55" y="7" width="230" height="46" rx="8" fill="#dbeafe" stroke="#64748b"></rect>
+    <text x="170" y="25" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">现实世界</text>
+    <text x="170" y="42" text-anchor="middle" font-size="11" fill="#1e40af">天气、汇率、商品价格</text>
+    <path d="M170 53 V87" stroke="currentColor" stroke-width="1.5"></path>
+    <rect x="95" y="87" width="150" height="46" rx="8" fill="#fef3c7" stroke="#b45309"></rect>
+    <text x="170" y="105" text-anchor="middle" font-size="13" font-weight="600" fill="#92400e">预言机 Oracle</text>
+    <text x="170" y="122" text-anchor="middle" font-size="11" fill="#92400e">采集并传递数据</text>
+    <path d="M170 133 V170" stroke="currentColor" stroke-width="1.5"></path>
+    <rect x="55" y="170" width="230" height="50" rx="8" fill="#dcfce7" stroke="#15803d"></rect>
+    <text x="170" y="190" text-anchor="middle" font-size="13" font-weight="600" fill="#166534">链上智能合约</text>
+    <text x="170" y="208" text-anchor="middle" font-size="11" fill="#166534">判断降雨量，执行赔付逻辑</text>
+  </svg>
